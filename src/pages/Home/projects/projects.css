@@ -1,0 +1,47 @@
+.projects {
+  background-color: #2e2f34;
+  height: 100%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.projects-intro h6 {
+  padding-top: 50px;
+  font-family: "sora" sans-serif;
+  color: #00ffff;
+  font-size: 1.5em;
+}
+.projects-intro h2 {
+  font-family: "Neuton", serif;
+  font-size: 2.5em;
+}
+.my-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.project-cards {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+  border: 1px solid white;
+  /*display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+}
+.project-img {
+  width: 100%;
+}
+.project-img img {
+  width: 80%;
+  height: 400px;
+  margin-left: -120px;
+}
+.project-button {
+  /* margin-top: 10px; */
+  background-color: transparent;
+  color: #00ffff;
+  font-family: "sora", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 1px solid #00ffff;
+}

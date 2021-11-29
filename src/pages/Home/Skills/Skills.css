@@ -12,6 +12,48 @@
 }
 .skills-intro h6 {
   font-size: 1.2rem;
-  font-family: "sora", sans-serif;
+  font-family: "Neuton", serif;
   color: #00ffff;
+}
+.skills-intro h2 {
+  font-size: 2.5em;
+  font-family: "Neuton", serif;
+}
+.card {
+  margin-top: 30px;
+  display: grid;
+  border: none;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #34353a;
+  padding-bottom: 100px;
+}
+.skill-card {
+  width: 85%;
+  border: none;
+  border-radius: 20px;
+  background-color: #2e2f34;
+  margin: 30px;
+  margin-right: 10px;
+}
+.icon {
+  margin-top: 5px;
+  font-size: 4em;
+}
+.insde h4 {
+  padding-bottom: 10px;
+}
+
+/* Language: css 
+ResponsiveNess
+------------------------------------------------------
+*/
+@media screen and (max-width: 900px) {
+  .card {
+    margin-top: 30px;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    background-color: #34353a;
+    padding-bottom: 100px;
+  }
 }

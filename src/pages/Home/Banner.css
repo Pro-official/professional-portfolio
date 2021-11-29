@@ -82,7 +82,7 @@
 ResponsiveNess
 ------------------------------------------------------
 */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .banner-div {
     padding-left: 10px;
     padding-right: 10px;
