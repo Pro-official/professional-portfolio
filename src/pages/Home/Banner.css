@@ -1,0 +1,90 @@
+.banner {
+  background-color: #2c2d32;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+.banner-div {
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.banner-name {
+  width: 90%;
+}
+.banner-name h1 {
+  font-family: "Neuton", serif;
+  font-size: 4em;
+  font-weight: 500;
+  line-height: 80px;
+}
+.rebel-text {
+  margin-top: -30px;
+  margin-right: 0;
+}
+.banner-name span {
+  color: #01fffd;
+}
+.banner-name hr {
+  margin-top: 50px;
+  width: 100px;
+  height: 2px;
+}
+.baner-links {
+  margin-top: 50px;
+}
+.banner-links a {
+  color: #00ffff;
+  font-size: 1rem;
+  font-family: "sora", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.banner-button {
+  margin-top: 20px;
+  background-color: transparent;
+  color: #00ffff;
+  font-family: "sora", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 1px solid #00ffff;
+}
+.banner-img {
+  width: 100%;
+}
+.banner-img img {
+  margin-top: -20px;
+  width: 100%;
+}
+.banner-intro {
+  width: 100%;
+  margin-top: 20px;
+}
+.banner-intro h6 {
+  color: #00ffff;
+  font-family: "sora", sans-serif;
+}
+.banner-intro h2 {
+  font-size: 3em;
+}
+.banner-intro p {
+  font-family: "sora", sans-serif;
+  font-size: 1rem;
+}
+/* #2b2c31 */
+/* Language: css 
+ResponsiveNess
+------------------------------------------------------
+*/
+@media screen and (max-width: 800px) {
+  .banner-div {
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
