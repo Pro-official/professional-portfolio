@@ -1,19 +1,25 @@
 import React from "react";
 import "./Banner.css";
-import me from "../../images/me2.png";
+import me from "../../images/me.png";
 
 const Banner = () => {
+  const imgStyle = {
+    clipPath: "circle()",
+  };
+
   return (
     <div className="banner">
       <div className="banner-div">
         <div className="banner-name">
+          <div className="banner-img">
+            <img style={imgStyle} src={me} alt="" />
+          </div>
           <h1>Promise Ghosh</h1>
           <br />
           <h1 className="rebel-text">
             Chowdhury <span>.</span>
           </h1>
-          <hr />
-          <div className="banner-links">
+          {/* <div className="banner-links">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -47,19 +53,18 @@ const Banner = () => {
             >
               &nbsp; Twitter
             </a>
-          </div>
+          </div> */}
           <button className="banner-button">CONTACT ME</button>
         </div>
-        <div className="banner-img">
-          <img src={me} alt="" />
-        </div>
+
         <div className="banner-intro">
           <h6>Introduction</h6>
           <h2>Web Developer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            dolorem odit sint voluptate modi ipsum velit omnis. Eaque, dolores
-            consequatur.
+            Simplicity is a prerequisite for reliability. Turning my dreams into
+            my vision and my visions in reality with tons of codes will make me
+            both reliable and simple. I will make your life easier with a great
+            website. That's a Promise.
           </p>
         </div>
       </div>

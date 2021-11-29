@@ -1,6 +1,17 @@
 .skills {
-  background-color: #2b2c31;
+  background-color: #34353a;
   height: 100%;
   width: 100%;
   color: white;
+  text-align: center;
+}
+.skills-intro {
+  padding-top: 100px;
+  width: 40%;
+  margin: 0 auto;
+}
+.skills-intro h6 {
+  font-size: 1.2rem;
+  font-family: "sora", sans-serif;
+  color: #00ffff;
 }

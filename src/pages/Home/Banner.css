@@ -1,5 +1,5 @@
 .banner {
-  background-color: #2c2d32;
+  background-color: #2e2f34;
   height: 100%;
   width: 100%;
   color: white;
@@ -8,32 +8,33 @@
   padding-top: 100px;
   padding-left: 50px;
   padding-right: 50px;
+  padding-bottom: 50px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .banner-name {
   width: 90%;
+  /* text-align: center; */
 }
 .banner-name h1 {
   font-family: "Neuton", serif;
   font-size: 4em;
   font-weight: 500;
-  line-height: 80px;
+  line-height: 60px;
+  margin-left: 100px;
 }
 .rebel-text {
   margin-top: -30px;
   margin-right: 0;
+  margin-bottom: 30px;
 }
 .banner-name span {
   color: #01fffd;
 }
-.banner-name hr {
-  margin-top: 50px;
-  width: 100px;
-  height: 2px;
-}
+
 .baner-links {
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-left: 100px;
 }
 .banner-links a {
   color: #00ffff;
@@ -44,7 +45,7 @@
   margin-right: 20px;
 }
 .banner-button {
-  margin-top: 20px;
+  /* margin-top: 10px; */
   background-color: transparent;
   color: #00ffff;
   font-family: "sora", sans-serif;
@@ -52,9 +53,10 @@
   font-size: 1rem;
   padding: 10px 20px;
   border: 1px solid #00ffff;
+  margin-left: 100px;
 }
 .banner-img {
-  width: 100%;
+  width: 90%;
 }
 .banner-img img {
   margin-top: -20px;
@@ -62,7 +64,7 @@
 }
 .banner-intro {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 200px;
 }
 .banner-intro h6 {
   color: #00ffff;
