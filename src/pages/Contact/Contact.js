@@ -1,6 +1,7 @@
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import "./Contact.css";
+import Navigation from "../Shared/Navigation";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("xwkyenry");
@@ -10,6 +11,7 @@ const Contact = () => {
 
   return (
     <>
+      <Navigation></Navigation>
       <div className="form">
         <h2>Contact Me</h2>
         <h6>Contact me to know more..</h6>

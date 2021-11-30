@@ -1,6 +1,7 @@
 import React from "react";
 import "./Banner.css";
 import me from "../../images/me.png";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   const imgStyle = {
@@ -54,7 +55,9 @@ const Banner = () => {
               &nbsp; Twitter
             </a>
           </div> */}
-          <button className="banner-button">CONTACT ME</button>
+          <Link to="/contact">
+            <button className="banner-button">CONTACT ME</button>
+          </Link>
         </div>
 
         <div className="banner-intro">

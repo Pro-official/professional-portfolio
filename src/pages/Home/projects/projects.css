@@ -15,28 +15,43 @@
   font-family: "Neuton", serif;
   font-size: 2.5em;
 }
-.my-cards {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.project-cards {
-  margin-left: 10px;
-  margin-right: 10px;
-  text-align: center;
-  border: 1px solid white;
-  /*display: grid;
-  grid-template-columns: repeat(2, 1fr); */
-}
-.project-img {
-  width: 100%;
-}
-.project-img img {
-  width: 80%;
-  height: 400px;
-  margin-left: -120px;
-}
+
 .project-button {
   /* margin-top: 10px; */
+  background-color: transparent;
+  color: #00ffff;
+  font-family: "sora", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: 1px solid #00ffff;
+}
+.new-cards {
+  margin-top: 50px;
+}
+
+.column {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.project-card {
+  background-color: #34353a;
+  width: 90%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.card-img {
+  width: 60%;
+  height: 300px;
+}
+.project-button {
   background-color: transparent;
   color: #00ffff;
   font-family: "sora", sans-serif;
