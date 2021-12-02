@@ -4,7 +4,8 @@ import { Nav, Navbar } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 
 const NavStyle = {
-  backgroundColor: "#2c2d32",
+  // backgroundColor: "#2e2f34",
+  backgroundColor: "#091221",
   displau: "flex",
   alignItems: "center",
 };
@@ -28,7 +29,7 @@ const NavLogo = {
 
 const Navigation = () => {
   return (
-    <div style={NavStyle}>
+    <div className="sticky-top" style={NavStyle}>
       <Navbar collapseOnSelect expand="lg" className="ms-5 me-5">
         <NavLink to="/home">
           <Navbar.Brand>

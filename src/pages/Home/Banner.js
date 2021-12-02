@@ -1,16 +1,25 @@
 import React from "react";
 import "./Banner.css";
-import me from "../../images/me.png";
-import { Link } from "react-router-dom";
+// import me from "../../images/me.png";
+// import { Link } from "react-router-dom";
+// import me2 from "../../images/ridu.png";
+import me3 from "../../images/earth.jpg";
 
 const Banner = () => {
-  const imgStyle = {
-    clipPath: "circle()",
+  // const imgStyle = {
+  //   clipPath: "circle()",
+  // };
+  const BannerStyle = {
+    backgroundImage: `url(${me3})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    height: "100vh",
   };
 
   return (
-    <div className="banner">
-      <div className="banner-div">
+    <div style={BannerStyle} className="banner">
+      {/* <div className="banner-div">
         <div className="banner-name">
           <div className="banner-img">
             <img style={imgStyle} src={me} alt="" />
@@ -19,8 +28,8 @@ const Banner = () => {
           <br />
           <h1 className="rebel-text">
             Chowdhury <span>.</span>
-          </h1>
-          {/* <div className="banner-links">
+          </h1> */}
+      {/* <div className="banner-links">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -55,7 +64,7 @@ const Banner = () => {
               &nbsp; Twitter
             </a>
           </div> */}
-          <Link to="/contact">
+      {/* <Link to="/contact">
             <button className="banner-button">CONTACT ME</button>
           </Link>
         </div>
@@ -68,6 +77,16 @@ const Banner = () => {
             my vision and my visions in reality with tons of codes will make me
             both reliable and simple. I will make your life easier with a great
             website. That's a Promise.
+          </p>
+        </div>
+      </div> */}
+      <div className="intro">
+        <div className="intro-name">
+          <h1>Promise Ghosh Chowdhury</h1>
+          <h4>Web Developer</h4>
+          <p>
+            Simplicity is prerequisite to reliability. A modern website makes
+            the life of people both simple and reliable. That is my goal!
           </p>
         </div>
       </div>

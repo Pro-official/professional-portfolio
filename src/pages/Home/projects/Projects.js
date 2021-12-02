@@ -16,7 +16,7 @@ const Projects = () => {
         <h6>PROJECTS</h6>
         <h2>My Latest Projects</h2>
       </div>
-      <div class="div g-4">
+      <div className="project-div g-4">
         {projects.map((project) => (
           <Project key={project.id} project={project}></Project>
         ))}
